@@ -1,6 +1,10 @@
 {
   "siteTitle": "indexbind",
   "siteDescription": "Embedded retrieval artifacts for Node, browsers, and Workers.",
+  "locales": [
+    { "code": "en", "default": true },
+    { "code": "zh-CN", "label": "中文" }
+  ],
   "siteUrl": "https://indexbind.holon.run",
   "favicon": "/favicon.svg",
   "logo": {
