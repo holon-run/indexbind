@@ -3,7 +3,7 @@
 ## Project Status
 
 - Public project name is now `indexbind`.
-- GitHub repository is `https://github.com/jolestar/indexbind`.
+- GitHub repository is `https://github.com/holon-run/indexbind` (migrated from `jolestar/indexbind`).
 - Local directory path is still the old one:
   - `/Users/jolestar/opensource/src/github.com/jolestar/inkdex`
 - If the local directory is renamed to `.../indexbind`, start a new Codex session instead of trying to reuse this one.
@@ -63,8 +63,8 @@
 
 - Old `inkdex` naming was fully renamed in source/config/docs to `indexbind`.
 - `origin` already points to:
-  - `https://github.com/jolestar/indexbind.git`
-- `package.json` repository/homepage/bugs fields already point to `jolestar/indexbind`.
+  - `https://github.com/holon-run/indexbind.git`
+- `package.json` repository/homepage/bugs fields point to `holon-run/indexbind`.
 - Native loader expects files/packages under `indexbind` names:
   - local dev file: `native/indexbind.<platform>.node`
   - prebuilt package pattern: `@indexbind/native-<platform>`

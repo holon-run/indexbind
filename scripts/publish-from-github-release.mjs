@@ -7,7 +7,7 @@ const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
 const tagArg = args.find((arg) => !arg.startsWith('-'));
 const tag = process.env.RELEASE_TAG ?? tagArg ?? 'v0.1.0';
-const repo = 'jolestar/indexbind';
+const repo = 'holon-run/indexbind';
 const releaseDir = fs.mkdtempSync(path.join(os.tmpdir(), 'indexbind-release-publish-'));
 
 const packages = [

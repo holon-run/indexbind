@@ -11,9 +11,9 @@ resolver = "2"
 version = "0.6.3"
 edition = "2021"
 license = "MIT"
-repository = "https://github.com/jolestar/indexbind"
-homepage = "https://indexbind.jolestar.workers.dev"
-documentation = "https://indexbind.jolestar.workers.dev"
+repository = "https://github.com/holon-run/indexbind"
+homepage = "https://indexbind.holon.run"
+documentation = "https://indexbind.holon.run"
 
 [workspace.dependencies]
 anyhow = "1.0.100"

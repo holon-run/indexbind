@@ -22,7 +22,7 @@ concurrency:
 
 jobs:
   deploy:
-    if: github.repository == 'jolestar/indexbind'
+    if: github.repository == 'holon-run/indexbind'
     runs-on: ubuntu-latest
 
     steps:
@@ -43,9 +43,6 @@ jobs:
 
       - name: Build Cloudflare Worker bundle
         run: npx --no-install mdorigin build cloudflare --root docs/site --out dist/cloudflare --search dist/search
-
-      - name: Initialize Cloudflare project files
-        run: npm run docs:init:cloudflare
 
       - name: Deploy to Cloudflare Workers
         run: npx wrangler@4.76.0 deploy --config wrangler.jsonc

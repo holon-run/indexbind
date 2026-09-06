@@ -39,8 +39,8 @@ Platform notes:
 - Windows usage should go through WSL
 
 Install and packaging docs:
-- `https://indexbind.jolestar.workers.dev/guides/getting-started.md`
-- `https://indexbind.jolestar.workers.dev/reference/packaging.md`
+- `https://indexbind.holon.run/guides/getting-started.md`
+- `https://indexbind.holon.run/reference/packaging.md`
 
 ## Choose the right interface
 
@@ -62,8 +62,8 @@ Install and packaging docs:
   use `npx indexbind ...`
 
 API docs:
-- `https://indexbind.jolestar.workers.dev/reference/api.md`
-- `https://indexbind.jolestar.workers.dev/reference/cli.md`
+- `https://indexbind.holon.run/reference/api.md`
+- `https://indexbind.holon.run/reference/cli.md`
 
 ## Choose the artifact
 
@@ -79,8 +79,8 @@ API docs:
   use the build cache, then export fresh artifacts or bundles
 
 Concepts:
-- `https://indexbind.jolestar.workers.dev/concepts/runtime-model.md`
-- `https://indexbind.jolestar.workers.dev/concepts/canonical-bundles.md`
+- `https://indexbind.holon.run/concepts/runtime-model.md`
+- `https://indexbind.holon.run/concepts/canonical-bundles.md`
 
 ## Common commands
 
@@ -149,9 +149,9 @@ Use these APIs when the host already has documents or wants tighter control:
 - `openWebIndex(...)` from `indexbind/cloudflare`
 
 Docs:
-- `https://indexbind.jolestar.workers.dev/reference/api.md`
-- `https://indexbind.jolestar.workers.dev/guides/adoption-examples.md`
-- `https://indexbind.jolestar.workers.dev/reference/cli.md`
+- `https://indexbind.holon.run/reference/api.md`
+- `https://indexbind.holon.run/guides/adoption-examples.md`
+- `https://indexbind.holon.run/reference/cli.md`
 
 ## Cloudflare rule
 
@@ -162,12 +162,12 @@ Inside Cloudflare Workers:
 - use the host asset loader such as `ASSETS.fetch(...)` rather than monkey-patching global fetch
 
 Docs:
-- `https://indexbind.jolestar.workers.dev/guides/web-and-cloudflare.md`
-- `https://indexbind.jolestar.workers.dev/reference/api.md`
+- `https://indexbind.holon.run/guides/web-and-cloudflare.md`
+- `https://indexbind.holon.run/reference/api.md`
 
 ## Read in this order when unsure
 
-1. `https://indexbind.jolestar.workers.dev/guides/getting-started.md`
-2. `https://indexbind.jolestar.workers.dev/reference/api.md`
-3. `https://indexbind.jolestar.workers.dev/reference/cli.md`
-4. `https://indexbind.jolestar.workers.dev/guides/web-and-cloudflare.md`
+1. `https://indexbind.holon.run/guides/getting-started.md`
+2. `https://indexbind.holon.run/reference/api.md`
+3. `https://indexbind.holon.run/reference/cli.md`
+4. `https://indexbind.holon.run/guides/web-and-cloudflare.md`

@@ -33,11 +33,11 @@ const packageJson = {
   description: `Prebuilt native addon for indexbind on ${target.key}.`,
   repository: {
     type: 'git',
-    url: 'https://github.com/jolestar/indexbind.git',
+    url: 'https://github.com/holon-run/indexbind.git',
   },
-  homepage: 'https://github.com/jolestar/indexbind#readme',
+  homepage: 'https://github.com/holon-run/indexbind#readme',
   bugs: {
-    url: 'https://github.com/jolestar/indexbind/issues',
+    url: 'https://github.com/holon-run/indexbind/issues',
   },
   os: [target.os],
   cpu: [target.arch],

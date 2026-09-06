@@ -28,11 +28,11 @@
   "description": "Embedded retrieval artifacts for Node, browsers, and Workers.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jolestar/indexbind.git"
+    "url": "https://github.com/holon-run/indexbind.git"
   },
-  "homepage": "https://indexbind.jolestar.workers.dev",
+  "homepage": "https://indexbind.holon.run",
   "bugs": {
-    "url": "https://github.com/jolestar/indexbind/issues"
+    "url": "https://github.com/holon-run/indexbind/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -69,7 +69,7 @@
     "docs:search": "npm run docs:index && npx --no-install mdorigin build search --root docs/site --out dist/search",
     "docs:build:cloudflare": "npm run docs:search && npx --no-install mdorigin build cloudflare --root docs/site --out dist/cloudflare --search dist/search",
     "docs:init:cloudflare": "npx --no-install mdorigin init cloudflare --dir . --name indexbind --force",
-    "docs:deploy": "npm run docs:build:cloudflare && npm run docs:init:cloudflare && wrangler deploy",
+    "docs:deploy": "npm run docs:build:cloudflare && wrangler deploy --config wrangler.jsonc",
     "inspect:artifact": "npm run build:cli && node dist/cli.js inspect",
     "benchmark:basic": "npm run build:cli && tmpdir=$(mktemp -d) && node dist/cli.js build fixtures/benchmark/basic/docs \"$tmpdir/basic.sqlite\" --backend hashing && node dist/cli.js benchmark \"$tmpdir/basic.sqlite\" fixtures/benchmark/basic/queries.json",
     "smoke:web-bundle": "node scripts/smoke-web-bundle.mjs",

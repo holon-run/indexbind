@@ -26,7 +26,7 @@ Most search infrastructure is designed around services, crawlers, or runtime-man
 - the same retrieval model can work in Node, browsers, and Workers
 - the host application can still own routing, filtering, and ranking policy
 
-That makes it a better fit for docs systems, local tools, local knowledge bases with host-defined workflow, static deployments, and products such as [`mdorigin`](https://mdorigin.jolestar.workers.dev), where embedded retrieval is part of a larger publishing flow.
+That makes it a better fit for docs systems, local tools, local knowledge bases with host-defined workflow, static deployments, and products such as [`mdorigin`](https://mdorigin.holon.run), where embedded retrieval is part of a larger publishing flow.
 
 ## Choose The Right Tool
 
@@ -89,7 +89,7 @@ If that decision is still unclear, go to [Choosing indexbind](./guides/choosing-
 
 ## Local Preview
 
-If you want to preview this documentation site itself with [`mdorigin`](https://mdorigin.jolestar.workers.dev):
+If you want to preview this documentation site itself with [`mdorigin`](https://mdorigin.holon.run):
 
 ```bash
 npm run docs:index

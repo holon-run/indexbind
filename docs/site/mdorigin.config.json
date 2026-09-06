@@ -1,7 +1,7 @@
 {
   "siteTitle": "indexbind",
   "siteDescription": "Embedded retrieval artifacts for Node, browsers, and Workers.",
-  "siteUrl": "https://indexbind.jolestar.workers.dev",
+  "siteUrl": "https://indexbind.holon.run",
   "favicon": "/favicon.svg",
   "logo": {
     "src": "/favicon.svg",
@@ -10,11 +10,11 @@
   "showDate": true,
   "showSummary": true,
   "socialLinks": [
-    { "icon": "github", "label": "GitHub", "href": "https://github.com/jolestar/indexbind" },
+    { "icon": "github", "label": "GitHub", "href": "https://github.com/holon-run/indexbind" },
     { "icon": "npm", "label": "npm", "href": "https://www.npmjs.com/package/indexbind" }
   ],
   "editLink": {
-    "baseUrl": "https://github.com/jolestar/indexbind/edit/main/docs/site/"
+    "baseUrl": "https://github.com/holon-run/indexbind/edit/main/docs/site/"
   },
   "showHomeIndex": false,
   "search": {
