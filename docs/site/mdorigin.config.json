@@ -3,7 +3,11 @@
   "siteDescription": "Embedded retrieval artifacts for Node, browsers, and Workers.",
   "locales": [
     { "code": "en", "default": true },
-    { "code": "zh-CN", "label": "中文" }
+    {
+      "code": "zh-CN",
+      "label": "中文",
+      "siteDescription": "面向 Node、浏览器与 Workers 的嵌入式检索构件。"
+    }
   ],
   "siteUrl": "https://indexbind.holon.run",
   "favicon": "/favicon.svg",
