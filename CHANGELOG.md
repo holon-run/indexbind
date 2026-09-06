@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.4
+
+- Migrated repository metadata and documentation links to the `holon-run` organization and the `indexbind.holon.run` custom domain.
+- Fixed the docs deploy workflow guard so deploys run again after the GitHub organization transfer, and attached the `indexbind.holon.run` custom domain to the docs worker.
+- Added a Simplified Chinese (`zh-CN`) locale for the documentation site and upgraded the docs toolchain to `mdorigin` 0.5.1.
+
 ## 0.6.3
 
 - Removed the vendored `forks/model2vec-rs` copy and switched the workspace to a pinned upstream `model2vec-rs` git dependency.
