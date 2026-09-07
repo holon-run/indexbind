@@ -91,7 +91,7 @@
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "@types/node": "^24.5.2",
-    "mdorigin": "^0.5.2",
+    "mdorigin": "^0.5.3",
     "typescript": "^5.9.2",
     "wrangler": "^4.76.0"
   },
